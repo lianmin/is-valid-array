@@ -10,9 +10,6 @@
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
-  "sideEffects": [
-    "dist/*"
-  ],
   "scripts": {
     "start": "build-scripts start",
     "build": "build-scripts build",
@@ -32,7 +29,6 @@
     "@types/react-dom": "^17.0.2",
     "build-plugin-component": "^1.0.0",
     "build-scripts": "^1.1.1",
-    "husky": "^8.0.1",
     "jest": "^29.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -45,10 +41,5 @@
     "category": "utils"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "prettier --write"
-    }
-  },
-  "homepage": "https://unpkg.com/is-valid-array@1.0.0/build/index.html"
+  "homepage": "https://unpkg.com/is-valid-array@0.1.0/build/index.html"
 }
