@@ -1,6 +1,6 @@
 # is-valid-array
 
-check whether a given value is an array and its length is greater than 1
+checking whether a given value is an array and its length is greater than 0
 
 ## install
 

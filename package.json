@@ -1,7 +1,7 @@
 {
   "name": "is-valid-array",
   "version": "1.0.0",
-  "description": "判断是否为有效数组",
+  "description": "checking whether a given value is an array and its length is greater than 0",
   "files": [
     "demo/",
     "es/",
