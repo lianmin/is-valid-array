@@ -2,7 +2,5 @@
   "docGenIncludes": [],
   "disableGenerateStyle": true,
   "library": "isValidArray",
-  "plugins": [
-    "build-plugin-component"
-  ]
+  "plugins": ["build-plugin-component"]
 }

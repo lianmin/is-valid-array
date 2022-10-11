@@ -20,9 +20,7 @@
     "prepublishOnly": "npm run build",
     "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
     "eslint:fix": "npm run eslint -- --fix",
-    "lint": "npm run eslint && npm run stylelint",
-    "f2elint-scan": "f2elint scan",
-    "f2elint-fix": "f2elint fix"
+    "lint": "npm run eslint && npm run stylelint"
   },
   "keywords": [
     "array",
@@ -34,9 +32,7 @@
     "@types/react-dom": "^17.0.2",
     "build-plugin-component": "^1.0.0",
     "build-scripts": "^1.1.1",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "f2elint": "^2.2.1",
+    "husky": "^8.0.1",
     "jest": "^29.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -51,8 +47,7 @@
   "license": "MIT",
   "husky": {
     "hooks": {
-      "pre-commit": "f2elint commit-file-scan",
-      "commit-msg": "f2elint commit-msg-scan"
+      "pre-commit": "prettier --write"
     }
   },
   "homepage": "https://unpkg.com/is-valid-array@1.0.0/build/index.html"
