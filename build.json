@@ -2,5 +2,6 @@
   "docGenIncludes": [],
   "disableGenerateStyle": true,
   "library": "isValidArray",
+  "libraryTarget": "umd",
   "plugins": ["build-plugin-component"]
 }

@@ -12,4 +12,5 @@ it('valid array', () => {
   expect(isValidArray([{}])).toBe(true);
   expect(isValidArray([{ a: 3 }])).toBe(true);
   expect(isValidArray([0])).toBe(true);
+  expect(isValidArray([[]])).toBe(true);
 });
