@@ -23,4 +23,5 @@ isValidArray({}); //false
 isValidArray(undefined); //false
 isValidArray([1]); //true
 isValidArray([{}]); //true
+isValidArray([[]]); //true
 ```
