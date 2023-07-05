@@ -3,7 +3,9 @@
 <p>
   <img src="https://img.shields.io/npm/v/is-valid-array.svg">
   <img src="https://img.shields.io/npm/l/is-valid-array.svg" />
-  <img src="https://img.shields.io/codecov/c/github/lianmin/is-valid-array" />
+  <a href="https://codecov.io/gh/lianmin/is-valid-array" > 
+   <img src="https://codecov.io/gh/lianmin/is-valid-array/branch/main/graph/badge.svg?token=QY7KCCLR6P"/> 
+  </a>
   <img src="https://img.shields.io/bundlephobia/min/is-valid-array/0.1.0.svg" />
 </p>
 
