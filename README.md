@@ -1,13 +1,10 @@
 # is-valid-array
 
-<p>
-  <img src="https://img.shields.io/npm/v/is-valid-array.svg">
-  <img src="https://img.shields.io/npm/l/is-valid-array.svg" />
-  <a href="https://codecov.io/gh/lianmin/is-valid-array" > 
-   <img src="https://codecov.io/gh/lianmin/is-valid-array/branch/main/graph/badge.svg?token=QY7KCCLR6P"/> 
-  </a>
-  <img src="https://img.shields.io/bundlephobia/min/is-valid-array/0.1.0.svg" />
-</p>
+
+[![](https://img.shields.io/npm/v/is-valid-array.svg)](![](https://img.shields.io/npm/v/is-valid-array.svg))
+[![](https://codecov.io/gh/lianmin/is-valid-array/branch/main/graph/badge.svg?token=QY7KCCLR6P)](https://codecov.io/gh/lianmin/is-valid-array)
+![](https://img.shields.io/bundlephobia/min/is-valid-array/0.1.0.svg)
+![](https://img.shields.io/npm/l/is-valid-array.svg)
 
 checking whether a given value is a non-empty array.
 
@@ -25,7 +22,9 @@ import isValidArray from 'is-valid-array';
 isValidArray([]); //false
 isValidArray({}); //false
 isValidArray(undefined); //false
-isValidArray([1]); //true
+isValidArray([undefined]); // true
 isValidArray([{}]); //true
 isValidArray([[]]); //true
+isValidArray([0]); //true
+isValidArray([1,2,3]); //true
 ```
