@@ -5,7 +5,8 @@
   <img src="https://img.shields.io/npm/l/is-valid-array.svg" />
   <img src="https://img.shields.io/bundlephobia/min/is-valid-array/0.1.0.svg" />
 </p>
-checking whether a given value is an array and its length is greater than 0
+
+checking whether a given value is a non-empty array.
 
 ## install
 
