@@ -1,6 +1,6 @@
 {
   "name": "is-valid-array",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "checking whether a given value is an array and its length is greater than 0",
   "files": [
     "demo/",

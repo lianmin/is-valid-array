@@ -1,6 +1,6 @@
 # is-valid-array
 
-[![](https://img.shields.io/npm/v/is-valid-array.svg)](<![](https://img.shields.io/npm/v/is-valid-array.svg)>)
+![](https://img.shields.io/npm/v/is-valid-array.svg)
 [![](https://codecov.io/gh/lianmin/is-valid-array/branch/main/graph/badge.svg?token=QY7KCCLR6P)](https://codecov.io/gh/lianmin/is-valid-array)
 ![](https://img.shields.io/bundlephobia/min/is-valid-array/0.1.0.svg)
 ![](https://img.shields.io/npm/l/is-valid-array.svg)
