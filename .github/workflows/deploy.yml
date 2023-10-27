@@ -1,4 +1,4 @@
-name: publish-latest
+name: deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
     types: ['closed']
 
 jobs:
-  build-and-publish-npm:
+  deploy-pages:
     runs-on: ubuntu-latest
 
     strategy:
@@ -17,12 +17,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
+          ref: main
+
       - run: yarn install
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./build

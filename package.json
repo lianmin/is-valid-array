@@ -1,6 +1,6 @@
 {
   "name": "is-valid-array",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "checking whether a given value is an array and its length is greater than 0",
   "files": [
     "demo/",
@@ -36,5 +36,5 @@
     "typescript": "^4.8.4"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/is-valid-array@1.0.1/build/index.html"
+  "homepage": "https://lianmin.github.io/is-valid-array/index.html"
 }
