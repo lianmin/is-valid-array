@@ -1,12 +1,11 @@
 {
   "name": "is-valid-array",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "homepage": "https://lianmin.github.io/is-valid-array/index.html",
   "description": "checking whether a given value is an array and its length is greater than 0",
   "files": [
-    "demo/",
     "es/",
-    "lib/",
-    "build/"
+    "lib/"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -36,5 +35,4 @@
     "typescript": "^4.8.4"
   },
   "license": "MIT",
-  "homepage": "https://lianmin.github.io/is-valid-array/index.html"
 }
