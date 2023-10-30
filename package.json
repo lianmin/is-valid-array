@@ -1,6 +1,6 @@
 {
   "name": "is-valid-array",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://lianmin.github.io/is-valid-array/index.html",
   "description": "checking whether a given value is an array and its length is greater than 0",
   "files": [
